@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #6b4226;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.about, 
+.gallery {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9; 
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; 
+  justify-content: center;
+}
+
+.gallery-item {
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+}
+
+.gallery-item img {
+  width: 100%; 
+  height: auto; 
+  display: block;
+}
+
+.gallery-item p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+} 
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact a {
+    color: #6b4226;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #9a6e4f;
+}
+
+.map {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
